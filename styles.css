@@ -1,0 +1,24 @@
+/* Global Styling */
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+/* body styling */
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+
+}
+
