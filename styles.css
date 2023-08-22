@@ -11,14 +11,99 @@ body {
 
 /* header styles */
 header {
+    padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: lemonchiffon;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 header h1 {
     font-weight: bold;
     margin: 0;
+    color: #cdd2ff;
 
 }
 
+header a {
+    color: #cdd2ff;
+
+}
+
+header nav {
+    margin: 8px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+  
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+header nav ul li a:hover {
+    color: rgb(79, 31, 31);
+    border-radius: 15px;
+    text-shadow: none;
+}  
+
+
+
+
+section {
+    padding: 60px;
+}
+
+.under {
+    background-image: url('assets/backgroundimagecss.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;    
+}
+
+.under h2 {
+    color: #cdd2ff;
+    float: right;
+    font-style: normal;
+    font-size: 32px;
+}
+    
+
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    border-right: darkcyan solid 3px;
+    font-size: 35px;
+    color: darkcyan;
+    margin: auto
+}
+
+footer {
+    padding: 40px 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: lemonchiffon;
+}
+  
+footer h2 {
+    color: darkcyan;
+    font-size: 30px;
+    margin: 0;
+}
