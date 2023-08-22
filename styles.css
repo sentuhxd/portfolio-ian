@@ -169,6 +169,16 @@ section {
     width: 100%;
 }
 
+.other-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    width: 100%;
+}
+
 .seo-project {
     background-image: url('assets/seorefractor.png');
     background-size: cover;
@@ -182,6 +192,37 @@ section {
 .seo-project:hover {
     opacity: 70%;
 }
+
+.coming-soon {
+    background-image: url('assets/comingsoonimage.jpeg');
+    background-size: cover;
+    width: 47%;
+    height: 250px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: rgb(121, 27, 149) 5px solid;
+    position: relative;
+}
+
+.coming-soon:hover {
+    opacity: 70%;
+}
+
+.coming-soon2 {
+    background-image: url('assets/comingsoonimage.jpeg');
+    background-size: cover;
+    width: 47%;
+    height: 250px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: rgb(121, 27, 149) 5px solid;
+    position: relative; 
+}
+
+.coming-soon2:hover {
+    opacity: 70%;
+}
+
 
 .image {
     width: 10%;
