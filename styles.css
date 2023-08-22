@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: lemonchiffon;
+    background-color: blueviolet;
     background-size: cover;
     background-attachment: fixed;
 
@@ -48,12 +48,12 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 20px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
   
 header nav ul li a:hover {
-    color: rgb(79, 31, 31);
+    color: rgb(54, 31, 79);
     border-radius: 15px;
     text-shadow: none;
 }  
@@ -69,7 +69,7 @@ section {
     background-image: url('assets/backgroundimagecss.jpeg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: 80%;    
+    background-position: 75%;    
 }
 
 .under h2 {
@@ -78,19 +78,89 @@ section {
     font-style: normal;
     font-size: 32px;
 }
-    
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+
+}
 
 .section-title {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     padding-right: 15px;
-    width: 10%;
+    width: 12%;
     text-align: end;
-    border-right: darkcyan solid 3px;
+    border-right: #cdd2ff solid 4px;
     font-size: 35px;
-    color: darkcyan;
-    margin: auto
+    color: #cdd2ff;
+    margin: 0 auto 0 auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 75%;
+
+}
+
+
+.section-title2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: #cdd2ff;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 12%;
+    text-align: end;
+    height: 1000px;
+    border-right: #cdd2ff solid 4px;
+}
+
+.flex-row2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 75%;
+}
+
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    height: 600px;
+    width: 100%;
+}
+
+
+.image {
+    width: 10%;
+    height: auto;
+    padding-left: 1%;
+}
+
+.section p, .section a {
+    line-height: 1.5;
+    color: #cdd2ff;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center;
+    padding: 0 17px 0 17px;
 }
 
 footer {
@@ -103,7 +173,7 @@ footer {
 }
   
 footer h2 {
-    color: darkcyan;
+    color: #cdd2ff;
     font-size: 30px;
     margin: 0;
 }
