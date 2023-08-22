@@ -67,9 +67,16 @@ section {
 
 .under {
     background-image: url('assets/backgroundimagecss.jpeg');
+    height: 600px;
     background-size: cover;
-    background-attachment: fixed;
-    background-position: 75%;    
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image { 
+    height: 300px;
 }
 
 .under h2 {
@@ -144,7 +151,7 @@ section {
     margin: 0 auto;
     font-size: 32px;
     text-align: center;
-    padding: 0 17px 0 17px;
+
 }
 
 .flex-row2 p {
@@ -221,15 +228,6 @@ section {
     opacity: 70%;
 }
 
-
-.image {
-    width: 10%;
-    height: auto;
-    padding-left: 1%;
-}
-
-
-
 footer {
     padding: 40px 35px;
     display: flex;
@@ -245,4 +243,79 @@ footer h2 {
     margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .under {
+        font-size: 28px;
+        padding-right: 20px;
+    }
+    
+    .under h2 {
+        font-size: 35px;
+    }
 
+    .section-title {
+        font-size: 35px;
+    }
+
+    .section p .section a {
+        font-size: 16px;
+        /*padding: 0 15px;*/
+        line-height: 1.6;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONE SCREENS AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+        justify-content: center;
+        padding: 20px;
+    }
+
+    header nav ul {
+        min-height: 80px;
+    }
+
+    .under {
+        flex-direction: column;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .section {
+        border-bottom: #cdd2ff 5px solid;
+        border-right: none;
+        text-align: center;
+        min-width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .section p .section a {
+        font-size: 16px;
+        line-height: 1.6;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .flex-row2 {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .section-title2 {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .other-projects {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+
+}
