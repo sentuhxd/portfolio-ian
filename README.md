@@ -84,3 +84,6 @@ The URL of the GitHub repository that contains your code. Give the repository a 
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
+Link to [Repository]https://github.com/sentuhxd/portfolio-module-2
+
+Link to [Deploy] 
