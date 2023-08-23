@@ -86,4 +86,4 @@ The URL of the GitHub repository that contains your code. Give the repository a 
 
 Link to [Repository]https://github.com/sentuhxd/portfolio-module-2
 
-Link to [Deploy] 
+Link to [Deploy]https://sentuhxd.github.io/portfolio-ian/
